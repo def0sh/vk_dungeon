@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/src/api/ControlDungeon.php';
+require_once __DIR__ . '/api/ControlDungeon.php';
 
 $game = new DungeonAPI();
 $game->loadDungeon();
