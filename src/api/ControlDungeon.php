@@ -41,6 +41,6 @@ class DungeonAPI
     // Показать кратчайший путь до выхода
     public function printShortestWay(): string{
         echo "Кратчайший путь до комнаты с выходом: ";
-        return  implode('-',  $this->shortestWay[0]);
+        return  implode('->',  $this->shortestWay[0]);
     }
 }
