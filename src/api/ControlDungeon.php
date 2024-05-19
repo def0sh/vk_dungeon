@@ -2,7 +2,7 @@
 
 require_once __DIR__ . "/../backend/Dungeon.php";
 
-// Основной класс управления игры
+// Основной класс управления игрой
 class DungeonAPI
 {
     public int $points;
